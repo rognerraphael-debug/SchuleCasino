@@ -6,7 +6,7 @@ public class Sample extends Game {
     }
 
     private Bild box = new Bild(10,10,"tomas.png");
-    private Game g;
+    
     public Sample() {
         super(1920 , 1080,false);
         
@@ -21,5 +21,5 @@ public class Sample extends Game {
             case Taste.UNTEN:  box.verschieben(+0, +10); break;
             case Taste.LINKS:  box.verschieben(-10, +0); break;
         }
-    }    
+    } 
 }
