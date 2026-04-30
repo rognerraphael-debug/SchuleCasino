@@ -5,7 +5,8 @@ public class Sample extends Game {
         new Sample();
     }
 
-    private Bild box;
+    private Bild box = new Bild(10,10,"tomas.png");
+    private Game g;
     public Sample() {
         super(1920 , 1080,true);
 
@@ -22,13 +23,5 @@ public class Sample extends Game {
             case Taste.UNTEN:  box.verschieben(+0, +10); break;
             case Taste.LINKS:  box.verschieben(-10, +0); break;
         }
-    }
-    
-    public void test() {
-        while (tasteGedrueckt(1) == false) {
-            System.out.println("W");
-        }
-    }
-    
-    
+    }    
 }
