@@ -7,7 +7,7 @@ public class Sample extends Game {
 
     private Bild box;
     public Sample() {
-        super(1920 , 1080,false);
+        super(1920 , 1080,true);
 
         box = new Bild(10,10,"tomas.png");
 
