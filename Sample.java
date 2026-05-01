@@ -26,10 +26,10 @@ public class Sample extends Game {
     @Override
     public void tasteReagieren(int code) {
         switch(code) {
-            case Taste.OBEN:   box.verschieben(+0, -10); break;
-            case Taste.RECHTS: box.verschieben(+10, +0); break;
-            case Taste.UNTEN:  box.verschieben(+0, +10); break;
-            case Taste.LINKS:  box.verschieben(-10, +0); break;
+            case Taste.W:   box.verschieben(+0, -10); break;
+            case Taste.D: box.verschieben(+10, +0); break;
+            case Taste.S:  box.verschieben(+0, +10); break;
+            case Taste.A:  box.verschieben(-10, +0); break;
         }
 
     }    
