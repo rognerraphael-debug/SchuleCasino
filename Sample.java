@@ -13,13 +13,12 @@ public class Sample extends Game {
         super(1920 , 1080,false);
 
         
-        Bild mausBild = new Bild(0, 0, "mauszeiger.png");
+        Bild mausBild = new Bild(60, 60, "mauszeiger.png");
+        box = new Bild(10,10,"charakter.png");
         Punkt hotspot = new Punkt(0, 0);
-        meineMaus = new Maus(mausBild, hotspot, false, true);
+        meineMaus = new Maus(mausBild, hotspot, false, false);
         
-        
-        box = new Bild(10,10,"tomas.png");
-        
+        iconSetzen(box);
         wurzel.add(box);
         mausAnmelden(meineMaus);
     }
