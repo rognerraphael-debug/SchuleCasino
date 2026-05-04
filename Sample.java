@@ -12,8 +12,7 @@ public class Sample extends Game {
 
     public Sample() {
 
-        super(1920 , 1080,false);
-
+        super(1920 , 1080,"CASINOGAME",false);
         
         Bild mausBild = new Bild(60, 60, "Bilder/mauszeiger.png");
         charakter = new Bild(10,10,"Bilder/charakter.png");
