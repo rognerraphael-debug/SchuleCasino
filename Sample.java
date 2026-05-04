@@ -11,8 +11,10 @@ public class Sample extends Game {
     }
 
     public Sample() {
-
-        super(1920 , 1080,"CASINOGAME",false);
+        
+        super(1920 , 1080,"CASINOGAME",false,true,0,0);
+        
+        
         
         Bild mausBild = new Bild(60, 60, "Bilder/mauszeiger.png");
         charakter = new Bild(10,10,"Bilder/charakter.png");
@@ -37,7 +39,8 @@ public class Sample extends Game {
             case Taste.S:  charakter.verschieben(+0, +10); break;
             case Taste.A:  charakter.verschieben(-10, +0); break;
         }
-
-    }    
+    }
+    
+    
 
     } 
