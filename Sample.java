@@ -2,7 +2,7 @@ import ea.*;
 
 public class Sample extends Game {
     private Maus meineMaus;
-    private Bild box;
+    private Bild charakter;
     private Bild background;
     
     public static void main(String[] args) {
@@ -15,25 +15,25 @@ public class Sample extends Game {
 
         
         Bild mausBild = new Bild(60, 60, "mauszeiger.png");
-        box = new Bild(10,10,"charakter.png");
+        charakter = new Bild(10,10,"charakter.png");
         background = new Bild ("Background.png");
         Punkt hotspot = new Punkt(0, 0);
         meineMaus = new Maus(mausBild, hotspot, false, false);
         
         
         hintergrundSetzen(background);
-        iconSetzen(box);
-        wurzel.add(box);
+        iconSetzen(charakter);
+        wurzel.add(charakter);
         mausAnmelden(meineMaus);
     }
 
     @Override
     public void tasteReagieren(int code) {
         switch(code) {
-            case Taste.W:   box.verschieben(+0, -10); break;
-            case Taste.D: box.verschieben(+10, +0); break;
-            case Taste.S:  box.verschieben(+0, +10); break;
-            case Taste.A:  box.verschieben(-10, +0); break;
+            case Taste.W:   charakter.verschieben(+0, -10); break;
+            case Taste.D: charakter.verschieben(+10, +0); break;
+            case Taste.S:  charakter.verschieben(+0, +10); break;
+            case Taste.A:  charakter.verschieben(-10, +0); break;
         }
 
     }    

@@ -28,5 +28,5 @@ target1.name=Sample
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
-target1.x=270
-target1.y=140
+target1.x=100
+target1.y=10
