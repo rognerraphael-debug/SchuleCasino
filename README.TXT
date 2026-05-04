@@ -6,7 +6,7 @@ alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar
 zumindest die folgenden Angaben umfassen:
 ------------------------------------------------------------------------
 
-PROJEKTBEZEICHNUNG: Casino_Ptojekt_Schule
+PROJEKTBEZEICHNUNG: Casino_Projekt_Schule
 PROJEKTZWECK: Schulprojekt
 VERSION oder DATUM: 1.0 / -- 
 WIE IST DAS PROJEKT ZU STARTEN:
