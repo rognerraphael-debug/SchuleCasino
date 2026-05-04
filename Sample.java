@@ -3,6 +3,7 @@ import ea.*;
 public class Sample extends Game {
     private Maus meineMaus;
     private Bild box;
+    private Bild background;
     
     public static void main(String[] args) {
         new Sample();
@@ -15,9 +16,12 @@ public class Sample extends Game {
         
         Bild mausBild = new Bild(60, 60, "mauszeiger.png");
         box = new Bild(10,10,"charakter.png");
+        background = new Bild ("Background.png");
         Punkt hotspot = new Punkt(0, 0);
         meineMaus = new Maus(mausBild, hotspot, false, false);
         
+        
+        hintergrundSetzen(background);
         iconSetzen(box);
         wurzel.add(box);
         mausAnmelden(meineMaus);
