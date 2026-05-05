@@ -12,7 +12,7 @@ public class Spieltest extends Game {
 
     public Spieltest() {
         
-        super(1920 , 1080,"CASINOGAME",true,true,0,0);
+        super(1920 , 1080,"CASINOGAME",false,true,0,0);
         
         
         
