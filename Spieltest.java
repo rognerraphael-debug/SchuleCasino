@@ -1,18 +1,18 @@
 import ea.*;
 
-public class Sample extends Game {
+public class Spieltest extends Game {
     private Maus meineMaus;
     private Bild charakter;
     private Bild background;
     private Bild WASD_Schild;
     
     public static void main(String[] args) {
-        new Sample();
+        new Spieltest();
     }
 
-    public Sample() {
+    public Spieltest() {
         
-        super(1920 , 1080,"CASINOGAME",false,true,0,0);
+        super(1920 , 1080,"CASINOGAME",true,true,0,0);
         
         
         
@@ -40,7 +40,4 @@ public class Sample extends Game {
             case Taste.A:  charakter.verschieben(-10, +0); break;
         }
     }
-    
-    
-
     } 
