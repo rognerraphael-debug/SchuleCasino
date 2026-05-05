@@ -1,16 +1,16 @@
 import ea.*;
 
-public class Spieltest extends Game {
+public class Spiel extends Game {
     private Maus meineMaus;
     private Bild charakter;
     private Bild background;
     private Bild WASD_Schild;
     
     public static void main(String[] args) {
-        new Spieltest();
+        new Spiel();
     }
 
-    public Spieltest() {
+    public Spiel() {
         
         super(1920 , 1080,"CASINOGAME",false,true,0,0);
         
