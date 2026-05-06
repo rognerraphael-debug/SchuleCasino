@@ -12,11 +12,11 @@ public class Spiel extends Game {
 
     public Spiel() {
         
-        super(1920 , 1080,"CASINOGAME",false,true,0,0);
+        super(1920 , 1080,"TheDiamondCasino",false,true,0,0);
         
         
         
-        Bild mausBild = new Bild(60, 60, "Bilder/mauszeiger.png");
+        Bild mausBild = new Bild(60, 60, "Bilder/mauszeiger_2.png");
         charakter = new Bild(10,10,"Bilder/charakter.png");
         background = new Bild ("Bilder/Background.png");
         WASD_Schild = new Bild(1800,10,"Bilder/WASD_Schild.png");
